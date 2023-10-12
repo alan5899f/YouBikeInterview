@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F251199C2AD7C72D00F6F06D /* UbikeTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251199B2AD7C72D00F6F06D /* UbikeTableHeaderView.swift */; };
+		F251199E2AD7CA5300F6F06D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251199D2AD7CA5300F6F06D /* Config.swift */; };
+		F25119A02AD7CE5800F6F06D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F251199F2AD7CE5800F6F06D /* SearchBarView.swift */; };
+		F25119A22AD7D32B00F6F06D /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25119A12AD7D32B00F6F06D /* SearchListView.swift */; };
+		F25119A42AD7D41400F6F06D /* SearchListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25119A32AD7D41400F6F06D /* SearchListCell.swift */; };
+		F25119A62AD7DC8700F6F06D /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25119A52AD7DC8700F6F06D /* Int.swift */; };
+		F25119AE2AD7E72700F6F06D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25119AD2AD7E72700F6F06D /* SettingViewController.swift */; };
+		F25119B02AD7EE4E00F6F06D /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25119AF2AD7EE4E00F6F06D /* SettingCell.swift */; };
+		F25119B22AD7EE9C00F6F06D /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25119B12AD7EE9C00F6F06D /* SettingViewModel.swift */; };
 		F2922D532AD79BA600628EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D522AD79BA600628EAA /* AppDelegate.swift */; };
 		F2922D552AD79BA600628EAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D542AD79BA600628EAA /* SceneDelegate.swift */; };
-		F2922D572AD79BA600628EAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D562AD79BA600628EAA /* ViewController.swift */; };
-		F2922D5A2AD79BA600628EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2922D582AD79BA600628EAA /* Main.storyboard */; };
+		F2922D572AD79BA600628EAA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D562AD79BA600628EAA /* GameViewController.swift */; };
 		F2922D5C2AD79BAC00628EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2922D5B2AD79BAC00628EAA /* Assets.xcassets */; };
 		F2922D5F2AD79BAC00628EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2922D5D2AD79BAC00628EAA /* LaunchScreen.storyboard */; };
+		F2922D682AD79C9C00628EAA /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D672AD79C9C00628EAA /* CalculateViewModel.swift */; };
+		F2922D6A2AD7A48000628EAA /* LotteryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D692AD7A48000628EAA /* LotteryViewModel.swift */; };
+		F2922D6E2AD7AC8100628EAA /* UbikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D6D2AD7AC8100628EAA /* UbikeViewController.swift */; };
+		F2922D712AD7AD8F00628EAA /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D702AD7AD8F00628EAA /* NavigationBarView.swift */; };
+		F2922D742AD7B16E00628EAA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D732AD7B16E00628EAA /* UIColor.swift */; };
+		F2922D782AD7B3E900628EAA /* UbikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D772AD7B3E900628EAA /* UbikeCell.swift */; };
+		F2922D7B2AD7B46800628EAA /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D7A2AD7B46800628EAA /* AutoLayout.swift */; };
+		F2922D832AD7BF0900628EAA /* ApiServersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D7D2AD7BF0800628EAA /* ApiServersModel.swift */; };
+		F2922D842AD7BF0900628EAA /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D7E2AD7BF0800628EAA /* ApiError.swift */; };
+		F2922D872AD7BF0900628EAA /* ApiMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D812AD7BF0900628EAA /* ApiMethod.swift */; };
+		F2922D882AD7BF0900628EAA /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D822AD7BF0900628EAA /* ApiRouter.swift */; };
+		F2922D8A2AD7C05A00628EAA /* UbikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D892AD7C05A00628EAA /* UbikeViewModel.swift */; };
+		F2922D8C2AD7C0D700628EAA /* UbikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2922D8B2AD7C0D700628EAA /* UbikeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F251199B2AD7C72D00F6F06D /* UbikeTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbikeTableHeaderView.swift; sourceTree = "<group>"; };
+		F251199D2AD7CA5300F6F06D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F251199F2AD7CE5800F6F06D /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		F25119A12AD7D32B00F6F06D /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		F25119A32AD7D41400F6F06D /* SearchListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListCell.swift; sourceTree = "<group>"; };
+		F25119A52AD7DC8700F6F06D /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		F25119AD2AD7E72700F6F06D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F25119AF2AD7EE4E00F6F06D /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		F25119B12AD7EE9C00F6F06D /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		F2922D4F2AD79BA600628EAA /* Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2922D522AD79BA600628EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2922D542AD79BA600628EAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2922D562AD79BA600628EAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2922D592AD79BA600628EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2922D562AD79BA600628EAA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F2922D5B2AD79BAC00628EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2922D5E2AD79BAC00628EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2922D602AD79BAC00628EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2922D672AD79C9C00628EAA /* CalculateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
+		F2922D692AD7A48000628EAA /* LotteryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryViewModel.swift; sourceTree = "<group>"; };
+		F2922D6D2AD7AC8100628EAA /* UbikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbikeViewController.swift; sourceTree = "<group>"; };
+		F2922D702AD7AD8F00628EAA /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		F2922D732AD7B16E00628EAA /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F2922D772AD7B3E900628EAA /* UbikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbikeCell.swift; sourceTree = "<group>"; };
+		F2922D7A2AD7B46800628EAA /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		F2922D7D2AD7BF0800628EAA /* ApiServersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServersModel.swift; sourceTree = "<group>"; };
+		F2922D7E2AD7BF0800628EAA /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		F2922D812AD7BF0900628EAA /* ApiMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiMethod.swift; sourceTree = "<group>"; };
+		F2922D822AD7BF0900628EAA /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		F2922D892AD7C05A00628EAA /* UbikeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbikeViewModel.swift; sourceTree = "<group>"; };
+		F2922D8B2AD7C0D700628EAA /* UbikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbikeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +98,108 @@
 		F2922D512AD79BA600628EAA /* Interview */ = {
 			isa = PBXGroup;
 			children = (
+				F2922D7C2AD7BED500628EAA /* ApiManager */,
+				F2922D792AD7B45200628EAA /* AutoLayout */,
+				F2922D722AD7B16400628EAA /* Extension */,
+				F2922D6F2AD7ACEA00628EAA /* Model */,
+				F2922D6C2AD7AC1B00628EAA /* View */,
+				F2922D6B2AD7AC1300628EAA /* Controller */,
+				F2922D662AD79C8400628EAA /* ViewModel */,
 				F2922D522AD79BA600628EAA /* AppDelegate.swift */,
 				F2922D542AD79BA600628EAA /* SceneDelegate.swift */,
-				F2922D562AD79BA600628EAA /* ViewController.swift */,
-				F2922D582AD79BA600628EAA /* Main.storyboard */,
+				F251199D2AD7CA5300F6F06D /* Config.swift */,
 				F2922D5B2AD79BAC00628EAA /* Assets.xcassets */,
 				F2922D5D2AD79BAC00628EAA /* LaunchScreen.storyboard */,
 				F2922D602AD79BAC00628EAA /* Info.plist */,
 			);
 			path = Interview;
+			sourceTree = "<group>";
+		};
+		F2922D662AD79C8400628EAA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D892AD7C05A00628EAA /* UbikeViewModel.swift */,
+				F25119B12AD7EE9C00F6F06D /* SettingViewModel.swift */,
+				F2922D672AD79C9C00628EAA /* CalculateViewModel.swift */,
+				F2922D692AD7A48000628EAA /* LotteryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2922D6B2AD7AC1300628EAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D6D2AD7AC8100628EAA /* UbikeViewController.swift */,
+				F25119AD2AD7E72700F6F06D /* SettingViewController.swift */,
+				F2922D562AD79BA600628EAA /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2922D6C2AD7AC1B00628EAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D762AD7B36E00628EAA /* Cell */,
+				F2922D752AD7B36A00628EAA /* UIView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2922D6F2AD7ACEA00628EAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D8B2AD7C0D700628EAA /* UbikeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2922D722AD7B16400628EAA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D732AD7B16E00628EAA /* UIColor.swift */,
+				F25119A52AD7DC8700F6F06D /* Int.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F2922D752AD7B36A00628EAA /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D702AD7AD8F00628EAA /* NavigationBarView.swift */,
+				F251199B2AD7C72D00F6F06D /* UbikeTableHeaderView.swift */,
+				F251199F2AD7CE5800F6F06D /* SearchBarView.swift */,
+				F25119A12AD7D32B00F6F06D /* SearchListView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F2922D762AD7B36E00628EAA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D772AD7B3E900628EAA /* UbikeCell.swift */,
+				F25119A32AD7D41400F6F06D /* SearchListCell.swift */,
+				F25119AF2AD7EE4E00F6F06D /* SettingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F2922D792AD7B45200628EAA /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D7A2AD7B46800628EAA /* AutoLayout.swift */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		F2922D7C2AD7BED500628EAA /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				F2922D7E2AD7BF0800628EAA /* ApiError.swift */,
+				F2922D822AD7BF0900628EAA /* ApiRouter.swift */,
+				F2922D7D2AD7BF0800628EAA /* ApiServersModel.swift */,
+				F2922D812AD7BF0900628EAA /* ApiMethod.swift */,
+			);
+			path = ApiManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +262,6 @@
 			files = (
 				F2922D5F2AD79BAC00628EAA /* LaunchScreen.storyboard in Resources */,
 				F2922D5C2AD79BAC00628EAA /* Assets.xcassets in Resources */,
-				F2922D5A2AD79BA600628EAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +272,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2922D572AD79BA600628EAA /* ViewController.swift in Sources */,
+				F2922D712AD7AD8F00628EAA /* NavigationBarView.swift in Sources */,
+				F25119A02AD7CE5800F6F06D /* SearchBarView.swift in Sources */,
+				F25119B02AD7EE4E00F6F06D /* SettingCell.swift in Sources */,
+				F25119A62AD7DC8700F6F06D /* Int.swift in Sources */,
+				F2922D782AD7B3E900628EAA /* UbikeCell.swift in Sources */,
+				F25119B22AD7EE9C00F6F06D /* SettingViewModel.swift in Sources */,
+				F2922D6A2AD7A48000628EAA /* LotteryViewModel.swift in Sources */,
+				F25119A22AD7D32B00F6F06D /* SearchListView.swift in Sources */,
+				F2922D832AD7BF0900628EAA /* ApiServersModel.swift in Sources */,
+				F2922D882AD7BF0900628EAA /* ApiRouter.swift in Sources */,
+				F2922D6E2AD7AC8100628EAA /* UbikeViewController.swift in Sources */,
+				F251199C2AD7C72D00F6F06D /* UbikeTableHeaderView.swift in Sources */,
+				F2922D842AD7BF0900628EAA /* ApiError.swift in Sources */,
+				F2922D8A2AD7C05A00628EAA /* UbikeViewModel.swift in Sources */,
+				F2922D572AD79BA600628EAA /* GameViewController.swift in Sources */,
 				F2922D532AD79BA600628EAA /* AppDelegate.swift in Sources */,
+				F251199E2AD7CA5300F6F06D /* Config.swift in Sources */,
+				F2922D682AD79C9C00628EAA /* CalculateViewModel.swift in Sources */,
+				F2922D872AD7BF0900628EAA /* ApiMethod.swift in Sources */,
+				F2922D8C2AD7C0D700628EAA /* UbikeModel.swift in Sources */,
+				F25119AE2AD7E72700F6F06D /* SettingViewController.swift in Sources */,
 				F2922D552AD79BA600628EAA /* SceneDelegate.swift in Sources */,
+				F2922D7B2AD7B46800628EAA /* AutoLayout.swift in Sources */,
+				F25119A42AD7D41400F6F06D /* SearchListCell.swift in Sources */,
+				F2922D742AD7B16E00628EAA /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F2922D582AD79BA600628EAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2922D592AD79BA600628EAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2922D5D2AD79BAC00628EAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +440,9 @@
 				INFOPLIST_FILE = Interview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +468,9 @@
 				INFOPLIST_FILE = Interview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
